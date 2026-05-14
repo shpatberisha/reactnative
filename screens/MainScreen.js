@@ -1,25 +1,15 @@
-import { setStatusBarBackgroundColor } from "expo-status-bar";
 import React from "react";
-import { Text , StyleSheet , View } from "react-native-web";
-import { StyleSheet } from "react-native/types_generated/index";
+import { Text , StyleSheet } from "react-native";
 
 
 const MainScreen =() => {
-    return(
-        <View>
-            <Text>This is the main</Text>
-        </View>
-    )
-}
+    return <Text style={styles.textStyle}>Hello World</Text>;
+};
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#fff',
-        alignItems: 'center',
-    },
     textStyle: {
         fontSize: 30
     }
 });
+
 export default MainScreen
