@@ -1,22 +1,22 @@
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View } from 'react-native';
-// import { NavigationContainer } from '@react-navigation/native';
-// import {createNativeStackNavigator} from '@react-navigation/native-stack';
-// import MainScreen from './screens/MainScreen';
-// import ListScreen from './screens/ListScreen';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import MainScreen from './screens/MainScreen';
+import ListScreen from './screens/ListScreen';
 
-// const Stack = createNativeStackNavigator();
+const Stack = createNativeStackNavigator();
 
-// export default function App() {
-//   return (
-//     <ListScreen/>
-//   );
-// }
+export default function App() {
+  return (
+    <ListScreen/>
+  );
+}
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
    
-//   },
-// });
+  },
+});
