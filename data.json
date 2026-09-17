@@ -1,32 +1,26 @@
 [
   {
-    "id": 1,
-    "country": "Japan",
-    "capital": "Tokyo",
-    "description": "An island nation in East Asia known for its dense cities, "
+    "id": "1",
+    "name": "Kamera Retro",
+    "image": "https://unsplash.com",
+    "description": "Kamera klasike filmike për adhuruesit e fotografisë vintage."
   },
   {
-    "id": 2,
-    "country": "Brazil",
-    "capital": "Brasília",
-    "description": "The largest country in South America, famous for its Amazon"
+    "id": "2",
+    "name": "Tastiera Mekanike",
+    "image": "https://unsplash.com",
+    "description": "Tastierë me ndriçim RGB dhe ndjesi fantastike gjatë shkrimit."
   },
   {
-    "id": 3,
-    "country": "Italy",
-    "capital": "Rome",
-    "description": "A European country with a long Mediterranean coastline, deep"
+    "id": "3",
+    "name": "Bimë Dekorative",
+    "image": "https://unsplash.com",
+    "description": "Freski dhe gjallëri për ambientin tuaj të punës apo dhomën e gjumit."
   },
   {
-    "id": 4,
-    "country": "Canada",
-    "capital": "Ottawa",
-    "description": "A North American country stretching from the Atlantic to the"
-  },
-  {
-    "id": 5,
-    "country": "Australia",
-    "capital": "Canberra",
-    "description": "A sovereign country comprising the mainland of the Australi"
+    "id": "4",
+    "name": "Llambë Tavoline",
+    "image": "https://unsplash.com",
+    "description": "Ndriçim i butë dhe i rregullueshëm, ideal për lexim gjatë natës."
   }
 ]
